@@ -16,10 +16,16 @@ def multiply(x,y):
     ans =x*y
     return ans
 
-x = 5
+x= "hello"
 y = 10
 
-ans = addition(x,y) + subtraction(x,y) + division(x,y)+multiply(x,y)
 
-print(ans)
+try:
 
+    
+    sum = x+y
+    print(sum)
+
+except:
+    print("Data type Error!")
+    
